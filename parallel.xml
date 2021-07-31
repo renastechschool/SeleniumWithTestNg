@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke">
+    <test name="Smoke module 6" parallel="classes" thread-count="4">
+        <classes>
+        <class name="Day8.D8_C1"></class>
+        <class name="Day8.D8_C2"></class>
+        <class name="Day9.D9_C1"></class>
+        <class name="Day9.D9_C2"></class>
+        </classes>
+    </test>
+</suite>
